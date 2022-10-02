@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Customize and Define Class Selector */
 .radial-blue {
   background: radial-gradient(lightyellow, skyblue);
 }
