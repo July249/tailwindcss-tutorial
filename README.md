@@ -91,3 +91,9 @@ npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch
 ```
 
 12. Now you can check the HTML file, which is applied Tailwind CSS style on live.
+
+## Useful Tailwind CSS Extension App
+
+1. Tailwind CSS IntelliSense
+
+2. Inline fold
