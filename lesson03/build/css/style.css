@@ -864,16 +864,6 @@ video {
   left: 0px;
 }
 
-.before\:top-20::before {
-  content: var(--tw-content);
-  top: 5rem;
-}
-
-.before\:top-40::before {
-  content: var(--tw-content);
-  top: 10rem;
-}
-
 .before\:translate-x-2::before {
   content: var(--tw-content);
   --tw-translate-x: 0.5rem;
@@ -1084,5 +1074,17 @@ video {
 @media (min-width: 768px) {
   .md\:flex {
     display: flex;
+  }
+}
+
+@media (min-aspect-ratio: 3/2) {
+  .widescreen\:section-min-height {
+    min-height: calc(100vh - 68px);
+  }
+}
+
+@media (min-aspect-ratio: 1/2) {
+  .tallscreen\:section-min-height {
+    min-height: calc(100vh - 68px);
   }
 }
